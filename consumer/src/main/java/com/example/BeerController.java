@@ -51,11 +51,11 @@ class BeerController {
 
 class Person {
 	public String name;
-	public int age;
+	public int year;
 
-	public Person(String name, int age) {
+	public Person(String name, int year) {
 		this.name = name;
-		this.age = age;
+		this.year = year;
 	}
 
 	public Person() {
